@@ -1,0 +1,70 @@
+
+#f1{
+    background-color:rgb(231, 229, 229);
+}
+
+#f2{
+    background-color: #007aff;
+}
+.t1{
+    width: 100%; border: none; 
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    background-color: #007aff;
+    color: beige;
+    font-stretch:extra-condensed;
+}
+
+.t2{
+    width: 100%;
+    border: none; text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: #007aff;
+    color:beige;
+    font-stretch:extra-condensed;
+}
+
+.t3{
+    color: #007aff;
+    font-size: 36px;
+    font-weight: bold;
+  font-stretch: extra-condensed;
+    
+}
+
+.submit{
+    background-color: #007aff;
+    color: white;
+    border: none;
+    padding: 12px 50px;
+    
+}
+#input{
+    background-color: rgb(219, 213, 213);
+    border: none;
+    padding: 14px 1050px 14px 2px;
+    
+    font-size: 20px;
+    font-stretch:condensed;
+}
+#proj-name{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color:rgb(231, 229, 229);
+    border: none;
+    font-size: 20px;
+    font-stretch:condensed;
+}
+#proj-des{
+    width: 100%;
+    background-color:rgb(231, 229, 229);
+    border: none;
+    font-size: 20px;
+    font-stretch:condensed;
+}
+.buttons{
+    padding: 12px 20px 12px 2px;
+}
+
