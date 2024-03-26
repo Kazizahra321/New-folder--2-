@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 3 Creating landing page using HTML & CSS</title>
-    <link rel="stylesheet" href="./style..css"/>
+     <meta charset="UTF-8">
+     <title>Task 3</title>
+     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <form>
-            <fieldset id="f1" >
-               <fieldset id="f2" >
-                 <div  style="text-align: center;">
-               
-                <input class="t1" type="text" value="Your Name">
-                <input class="t2" type="text" value="Brief introduction about yourself"><br><br></div> <br><br></fieldset> <br><br>
-    <label class="t3" for="Skills">Skills</label><br><br>
-    <input id="input" type="text" value="Add your skills"><br><br><br>
+ <div class="head">
+     <header>
+          <h1 class="Mid" id="Head">Your Name</h1>
+          <h5 class="Mid" id="Brief">Brief introduction of yourself.</h5>
+       </header>    
+ </div> 
+ 
+ <div>
+     <h2 class="skill">Skills</h2>
+     <form class="form">
+          <input type="text" value="Add your skill" width="50px" class="first">
+     </form>
     
-    <label class="t3" for="Name">Projects</label><br><br>
-    <fieldset>
-        <input id="proj-name"type="text" value="Project Name"><br><br>
-        <input id="proj-des" type="text"  value="Project description goes here"><br><br>
-        
-    </fieldset>
-    
-    <div style="text-align: center; font-size: larger;">
-        
-        <label class="t3" for="Contact">Contact</label><br><br>
-        <input class="buttons" type="text" value="Your Name"><br><br>
-        <input class="buttons" type="text" value="Your Email"><br><br>
-        <textarea rows="4" cols="23">Your Message</textarea><br><br>
-        <input class="submit" type="Submit" value="Send Message">
-    
-    
-    </div>
-    
-            </fieldset>
+ </div>
 
-        </form>
+ <div>
+     <h2 id="project">Projects</h2>
+    <section class="border">
+     <h3>Project Name</h3>
+     
+     <p>Project description goes here</p>
+
+    </section>
+
     </div>
+ </div>
+
+ <section class="section">
+     <h2>Contact</h2>
+     
+          <form action="#">
+               <input type="text" value="Your Name" size="30">
+          </form> <br>
+          <form action="#">
+               <input  type="text" value="Your Email" size="30">
+          </form>
+     <br>
+          <textarea name="" id="" cols="30" rows="3" >Your message</textarea>
+    <br>
+          <button type="button" class="block"><p>Send Message</p></button>
+          
+     
+ </section>
+ 
+     
 </body>
 </html>
